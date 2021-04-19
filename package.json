@@ -1,0 +1,31 @@
+{
+  "name": "nfl-teams",
+  "version": "1.0.0",
+  "description": "A basic WordPress plugin built to show a list of NFL teams returned from an API.",
+  "main": "webpack.mix.js",
+  "scripts": {
+    "watch": "cross-env NODE_ENV=production node_modules/.bin/webpack --watch --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremyrwross/nfl-teams.git"
+  },
+  "author": "Jeremy Ross",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremyrwross/nfl-teams/issues"
+  },
+  "homepage": "https://github.com/jeremyrwross/nfl-teams#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "bootstrap": "^5.0.0-beta3",
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.16",
+    "laravel-mix-purgecss": "^6.0.0",
+    "postcss": "^8.2.10",
+    "postcss-cli": "^8.3.1",
+    "resolve-url-loader": "^3.1.2",
+    "sass": "^1.32.10",
+    "sass-loader": "^11.0.1"
+  }
+}

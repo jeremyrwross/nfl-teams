@@ -1,0 +1,22 @@
+// Import core bootstrap.
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+// Adjust bootstrap variables.
+$list-group-bg: transparent;
+$list-group-item-padding-x: 0;
+
+$nav-link-color: $dark;
+$nav-tabs-link-active-color: $light;
+$nav-tabs-link-active-bg: $dark;
+
+// Import bootstrap components.
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/list-group";
+
+// Import boostrap helpers.
+@import "~bootstrap/scss/helpers";
+@import "~bootstrap/scss/utilities/api";
