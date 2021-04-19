@@ -20,8 +20,11 @@ To speed up development this plugin uses [Boostrap 5](https://getbootstrap.com/d
 
 Bootstrap 5 was chosen because it no longer requires jQuery as a dependency. Only components that are required are imported into the JavaScript and SCSS. To further optimize the plugins CSS, PurgeCSS is used to remove unused CSS.
 
-### Setup and Usage
+### Dev Setup
 
 * Run `npm install` to install all dependencies.
 * Run `npm run watch` to have Laravel Mix watch all SCSS and JavaScript files for changes.
 
+## Usage
+
+To use this plugin add the shortcode `[nfl_teams]` to any WordPress post or page.
